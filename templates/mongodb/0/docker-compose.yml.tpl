@@ -27,7 +27,7 @@ services:
     entrypoint: /opt/rancher/bin/entrypoint-mongod.sh
 
   mongod-config:
-    image: free/mongo-cfg:staging
+    image: ${MONGO_VERSION}
     stdin_open: true
     tty: true
     volumes:
