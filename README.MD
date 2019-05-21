@@ -8,7 +8,7 @@ Dentro de Rancher UI **Admin/Settings** Agregar un nuevo catálogo personalizado
 
 | Name            | URL                                                   | Branch |
 | --------------- | ----------------------------------------------------- | ------ |
-| Shard MongoDB-4 | https://github.com/spedroza82/*.git | master |
+| Shard MongoDB-4 | https://github.com/spedroza82/mongodb4_Sharded-rancher-template.git | master |
 
 ## Templates
 
