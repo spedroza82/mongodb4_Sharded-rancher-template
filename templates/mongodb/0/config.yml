@@ -1,0 +1,10 @@
+---
+name: Shard MongoDB Rancher Template
+description: |
+  MongoDB 4
+version: v1.0.0
+category: DDBB MongoDB
+maintainer: Santos Pedroza <santos@medux.com>
+projectURL: http://github.com/spedroza82/shard-mongodb4
+labels:
+  io.rancher.orchestration.supported: 'cattle,swarm'

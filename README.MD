@@ -1,10 +1,10 @@
 # MongoDB Sharded Rancher
 
-Rancher template for MongoDB Sharded
+Shard MongoDB Rancher Template
 
 ## Install
 
-In Rancher's UI, go to **Admin/Settings** and add a new custom catalog:
+Dentro de Rancher UI **Admin/Settings** Agregar un nuevo catálogo personalizado:
 
 | Name            | URL                                                   | Branch |
 | --------------- | ----------------------------------------------------- | ------ |
