@@ -96,7 +96,7 @@
       type: string
       required: false
     - variable: MONGOD_VOLUME_PATH
-      label: Volume path of mongod nodes (Optional)
+      label: Volume path of mongod nodes 
       description: To store the mongod data.
       type: string
       required: false
@@ -106,7 +106,7 @@
       type: string
       required: false
     - variable: CONFIGSVR_VOLUME_PATH
-      label: Volume path of configsvr nodes (Optional)
+      label: Volume path of configsvr nodes
       description: To store the configsvr data.
       type: string
       required: false
