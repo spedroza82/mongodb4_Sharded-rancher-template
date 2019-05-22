@@ -16,98 +16,98 @@
       label: "MongoDB Keyfile"
       type: multiline
       required: true
-      description: "Set a random strong passphrase. Generate with: openssl rand -base64 756"
+      description: "Generar con: openssl rand -base64 756"
     - variable: MONGO_INITDB_ROOT_USERNAME
-      label: "Username for admin user (Optional)"
+      label: "Username para el usuario administrador(Optional)"
       type: string
       default: "admin"
       required: false
     - variable: MONGO_INITDB_ROOT_PASSWORD
-      label: "Password for admin user"
+      label: "Password para el usuario administrador"
       type: password
       required: true
     - variable: MONGODB_DBNAME
-      label: "Database name (Optional)"
+      label: "Nombre DDBB (Optional)"
       type: string
       required: false
     - variable: MONGOS_PORT
-      label: "Mongos port"
+      label: "Puerto Mongos"
       type: int
       required: true
       default: "27017"
     - variable: MONGOD_PORT
-      label: "Mongod port (Optional)"
+      label: "puesrto Mongod (Optional)"
       type: int
       required: false
     - variable: "ARBITER_ENABLED"
-      label: "Enable Arbiter"
-      description: "Enable Arbiter for Mongod ReplicaSet."
+      label: "Habilitar árbitro"
+      description: "Habilitar árbitro para Mongod ReplicaSet."
       type: boolean
       required: true
       default: true
     - variable: "CONFIGSVR_ENABLED"
-      label: "Enable Configsvr"
-      description: "Enable Configsvr for Sharded."
+      label: "Habilitar ConfigServer"
+      description: "Habilitar ConfigServer Sharded."
       type: boolean
       required: true
       default: true
     - variable: "MONGOS_ENABLED"
-      label: "Enable Mongos"
-      description: "Enable Mongos for Sharded."
+      label: "Habilitar Mongos"
+      description: "Habilitar Mongos Sharded."
       type: boolean
       required: true
       default: true
     - variable: "MONGOD_SCALE"
-      label: "Mongod Scale"
-      description: "Number of Mongod nodes to launch. Only one node is scheduled to each host. Recommended 2."
+      label: "Nodos de Mongod"
+      description: "Número de nodos Mongod a escalar. Un nodo por cada host"
       type: int
       required: true
       default: 2
     - variable: "CONFIGSVR_SCALE"
-      label: "Configsvr Scale"
-      description: "Number of Configsvr nodes to launch. Only one node is scheduled to each host. Recommended 3."
+      label: "NOdos de ConfigServer"
+      description: "Número de nodos ConfigServer a escalar. Un nodo por cada host"
       type: int
       required: true
       default: 3
     - variable: MONGOD_RS_NAME
-      label: "Mongod ReplicaSet name"
+      label: "Nombre del Mongod ReplicaSet"
       type: string
       required: true
       default: "rs1"
     - variable: CONFIGSVR_RS_NAME
-      label: "Configsvr ReplicaSet name"
+      label: "Nombre del Configsvr ReplicaSet"
       type: string
       required: true
       default: "configsvr_rs1"
     - variable: MONGOD_HOST_LABEL
-      label: "Host label for mongod nodes (Optional)"
+      label: "Host label para nodos mongod(Optional)"
       type: string
       required: false
     - variable: ARBITER_HOST_LABEL
-      label: "Host label for arbiter nodes (Optional)"
+      label: "Host label para nodos árbitro (Optional)"
       type: string
       required: false
     - variable: CONFIGSVR_HOST_LABEL
-      label: "Host label for configsvr nodes (Optional)"
+      label: "Host label para nodos configserver (Optional)"
       type: string
       required: false
     - variable: MONGOS_HOST_LABEL
-      label: "Host label for mongos nodes (Optional)"
+      label: "Host label para nodos mongos (Optional)"
       type: string
       required: false
     - variable: MONGOD_VOLUME_PATH
-      label: Volume path of mongod nodes 
-      description: To store the mongod data.
+      label: Ruta del volúmen de los nodos mongod
+      description: Almacenamiento de mongod data.
       type: string
       required: false
     - variable: ARBITER_VOLUME_PATH
-      label: Volume path of arbiter nodes (Optional)
-      description: To store the arbiter data.
+      label: Ruta del volúmen de los nodos árbitro (Optional)
+      description: Almacenamiento de árbitro data.
       type: string
       required: false
     - variable: CONFIGSVR_VOLUME_PATH
-      label: Volume path of configsvr nodes
-      description: To store the configsvr data.
+      label: Ruta del volúmen de los nodos ConfigServer
+      description: Almacenamiento de ConfigServer data.
       type: string
       required: false
 
