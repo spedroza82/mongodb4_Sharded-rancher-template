@@ -36,7 +36,7 @@
       required: true
       default: "27017"
     - variable: MONGOD_PORT
-      label: "puerto Mongod (Optional)"
+      label: "Puerto Mongod (Optional)"
       type: int
       required: false
     - variable: "ARBITER_ENABLED"
@@ -96,17 +96,17 @@
       type: string
       required: false
     - variable: MONGOD_VOLUME_PATH
-      label: Ruta del volúmen de los nodos mongod
+      label: "Ruta del volúmen de los nodos mongod"
       description: Almacenamiento de mongod data.
       type: string
       required: true
     - variable: ARBITER_VOLUME_PATH
-      label: Ruta del volúmen de los nodos árbitro (Optional)
+      label: "Ruta del volúmen de los nodos árbitro (Optional)"
       description: Almacenamiento de árbitro data.
       type: string
       required: false
     - variable: CONFIGSVR_VOLUME_PATH
-      label: Ruta del volúmen de los nodos ConfigServer
+      label: "Ruta del volúmen de los nodos ConfigServer"
       description: Almacenamiento de ConfigServer data.
       type: string
       required: true
