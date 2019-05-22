@@ -1,8 +1,8 @@
-# MongoDB Sharded Rancher
+# MongoDB Sharded Rancher Template
 
-Shard MongoDB Rancher Template
+Template para crear un shard de mongoDB
 
-## Install
+## Instalación
 
 Dentro de Rancher UI **Admin/Settings** Agregar un nuevo catálogo personalizado:
 
@@ -10,11 +10,7 @@ Dentro de Rancher UI **Admin/Settings** Agregar un nuevo catálogo personalizado
 | --------------- | ----------------------------------------------------- | ------ |
 | Shard MongoDB-4 | https://github.com/spedroza82/mongodb4_Sharded-rancher-template.git | master |
 
-## Templates
-
-* **mongodb**: MongoDB Sharded for production environment
-
 ## Docker Images
 
 * **mongo-config**:
-Docker image used as sidekick container of all mongodb containers to provide secrets and scripts.
+Imagen Docker usada como un sidekick container para proveer scripts y secrets
